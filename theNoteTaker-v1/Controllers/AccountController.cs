@@ -12,7 +12,6 @@ using theNoteTaker_v1.Models;
 
 namespace theNoteTaker_v1.Controllers
 {
-    [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
